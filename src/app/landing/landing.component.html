@@ -1,0 +1,4 @@
+<div *ngFor="let image of images" class="center-align">
+  <img class="responsive-image" [src]="image" id="image" (click)="viewimage()"  
+  [ngClass]="view === 1 ? 'view' : ''">
+</div>

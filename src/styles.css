@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    font-family: 'Questrial', sans-serif;
+}
+.responsive-image{
+    max-width: 100%;
+}

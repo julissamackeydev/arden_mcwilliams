@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as M from 'materialize-css';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'arden';
+
+  ngOnInit(){
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+  }
 }
