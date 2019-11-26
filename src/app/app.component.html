@@ -1,9 +1,11 @@
 <div class="navbar-fixed">
-  <nav class="z-depth-0 center-align">
+  <nav class="z-depth-0">
     <div class="nav-wrapper white ">
-      <a href="#!" class="black-text flow-text">Arden McWilliams</a>
+      <a href="#!" class="black-text brand-logo center">Arden McWilliams</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
+        <li><a class="black-text" href="sass.html" [routerLink]="['/landing-2']">Landing II</a></li>
+        <li><a class="black-text" href="sass.html" [routerLink]="['/works-1']">Works I</a></li>
         <li><a class="black-text" href="sass.html">Contact</a></li>
         <li><a class="black-text" href="badges.html">Instagram</a></li>
       </ul>
@@ -16,6 +18,6 @@
   <li><a class="black-text" href="badges.html">Instagram</a></li>
 </ul>
 
-<div class="container"><app-landing></app-landing></div>
-
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
