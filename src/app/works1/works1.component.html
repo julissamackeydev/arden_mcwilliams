@@ -1,0 +1,7 @@
+<div *ngFor="let image of images" class="center-align">
+  <img class="responsive-image" style="width:100%" [src]="image.piece" id="image" (click)="viewimage()"  
+  [ngClass]="view === 1 ? 'view' : ''">
+  <p style="font-size: 14.5;">{{image.description}}</p>
+  <div class="row"></div>
+  <div class="row"></div>
+</div>

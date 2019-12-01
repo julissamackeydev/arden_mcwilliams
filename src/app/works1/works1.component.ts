@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-landing',
-  templateUrl: './landing.component.html',
-  styleUrls: ['./landing.component.css']
+  selector: 'app-works1',
+  templateUrl: './works1.component.html',
+  styleUrls: ['./works1.component.css']
 })
-export class LandingComponent implements OnInit {
+export class Works1Component implements OnInit {
 
   constructor() { }
-  view = 0
   images = [
     {
       "piece":
@@ -34,20 +33,25 @@ export class LandingComponent implements OnInit {
       "piece":
       "/assets/windowinparis.jpeg",
       "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "piece":
+      "/assets/farmhouse.jpeg",
+      "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "piece":
+      "/assets/couple.jpeg",
+      "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "piece":
+      "/assets/boats.jpeg",
+      "description": "oil on canvas 18in x 24in"
     }
   ];
+  
   ngOnInit() {
   }
-  viewimage(event){
 
-    if (this.view === 1){
-      this.view = 0;
-      return;
-    }
-    else{
-      this.view = 1;
-      return;
-    }
-
-  }
 }
