@@ -9,6 +9,7 @@ import { Works1Component } from './works1/works1.component';
 import { Landing2Component } from './landing2/landing2.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { Works2Component } from './works2/works2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactComponent } from './contact/contact.component';
     Works1Component,
     Landing2Component,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    Works2Component
   ],
   imports: [
     BrowserModule,

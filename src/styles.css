@@ -9,3 +9,12 @@ html{
 .input-field .prefix.active {
   color: #000;
 }
+.closelightbox:hover{
+  cursor: pointer;
+}
+.showall{
+  opacity:1;
+}
+.hideall{
+  opacity:0;
+}
