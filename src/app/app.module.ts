@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { Works2Component } from './works2/works2.component';
 import { Works3Component } from './works3/works3.component';
+import { DrawingsComponent } from './drawings/drawings.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Works3Component } from './works3/works3.component';
     AboutComponent,
     ContactComponent,
     Works2Component,
-    Works3Component
+    Works3Component,
+    DrawingsComponent
   ],
   imports: [
     BrowserModule,

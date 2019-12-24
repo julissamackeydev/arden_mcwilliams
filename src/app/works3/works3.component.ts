@@ -12,49 +12,51 @@ export class Works3Component implements OnInit {
   images = [
     {
       "piece":
-      "/assets/dogs.jpeg",
+      "/assets/paintings/dogs.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/windowinparis.jpeg",
+      "/assets/paintings/windowinparis.jpeg",
+      "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "piece":
+      "/assets/paintings/littlegirl.jpeg",
       "description": "oil on canvas 18in x 24in"
     }]
     images2=[
       {
         "piece":
-        "/assets/redhouse.jpeg",
+        "/assets/paintings/redhouse.jpeg",
+        "description": "oil on canvas 18in x 24in"
+      },{
+        "piece":
+        "/assets/paintings/nudeselfie.jpeg",
         "description": "oil on canvas 18in x 24in"
       }]
     images3=[
-      {
-        "piece":
-        "/assets/littlegirl.jpeg",
-        "description": "oil on canvas 18in x 24in"
-      }]
-    images4=[
     {
       "piece":
-      "/assets/nudeselfie.jpeg",
+      "/assets/paintings/farmhouse2.jpg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/farmhouse.jpeg",
+      "/assets/paintings/couple.jpeg",
       "description": "oil on canvas 18in x 24in"
-    }]
-    images5=[
-    {
+    },{
       "piece":
-      "/assets/couple.jpeg",
-      "description": "oil on canvas 18in x 24in"
-    },
-    {
-      "piece":
-      "/assets/boats.jpeg",
+      "/assets/paintings/boats.jpeg",
       "description": "oil on canvas 18in x 24in"
     }
   ];
+  // images4=[
+  //   {
+  //     "piece":
+  //     "/assets/paintings/boats.jpeg",
+  //     "description": "oil on canvas 18in x 24in"
+  //   }]
 
   ngOnInit() {
   }
