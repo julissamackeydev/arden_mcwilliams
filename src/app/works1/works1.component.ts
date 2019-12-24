@@ -11,42 +11,42 @@ export class Works1Component implements OnInit {
   images = [
     {
       "piece":
-      "/assets/redhouse.jpeg",
+      "/assets/paintings/redhouse.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/littlegirl.jpeg",
+      "/assets/paintings/littlegirl.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/dogs.jpeg",
+      "/assets/paintings/dogs.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/nudeselfie.jpeg",
+      "/assets/paintings/nudeselfie.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/windowinparis.jpeg",
+      "/assets/paintings/windowinparis.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/farmhouse.jpeg",
+      "/assets/paintings/farmhouse.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/couple.jpeg",
+      "/assets/paintings/couple.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
       "piece":
-      "/assets/boats.jpeg",
+      "/assets/paintings/boats.jpeg",
       "description": "oil on canvas 18in x 24in"
     }
   ];
