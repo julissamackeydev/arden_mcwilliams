@@ -18,7 +18,7 @@ export class Works3Component implements OnInit {
     {
       "piece":
       "/assets/paintings/windowinparis.jpeg",
-      "description": "oil on canvas 18in x 24in"
+      "description": "oil on canvas 4ft x 6ft"
     },
     {
       "piece":
@@ -29,17 +29,17 @@ export class Works3Component implements OnInit {
       {
         "piece":
         "/assets/paintings/redhouse.jpeg",
-        "description": "oil on canvas 18in x 24in"
+        "description": "oil on canvas 36in x 48in"
       },{
         "piece":
         "/assets/paintings/nudeselfie.jpeg",
-        "description": "oil on canvas 18in x 24in"
+        "description": "oil on canvas 30in x 40in"
       }]
     images3=[
     {
       "piece":
       "/assets/paintings/farmhouse2.jpg",
-      "description": "oil on canvas 18in x 24in"
+      "description": "oil on canvas 24in x 30in"
     },
     {
       "piece":
@@ -51,12 +51,6 @@ export class Works3Component implements OnInit {
       "description": "oil on canvas 18in x 24in"
     }
   ];
-  // images4=[
-  //   {
-  //     "piece":
-  //     "/assets/paintings/boats.jpeg",
-  //     "description": "oil on canvas 18in x 24in"
-  //   }]
 
   ngOnInit() {
   }
