@@ -13,25 +13,25 @@ export class DrawingsComponent implements OnInit {
     {
       "piece":
         "/assets/drawings/splayedout.jpg",
-      "description": "pencil on canvas 18in x 24in"
+      "description": "charcoal on paper"
     }, {
       "piece":
         "/assets/drawings/leaning.jpg",
-      "description": "pencil on canvas 18in x 24in"
+      "description": "soft pastel on paper"
     },{
       "piece":
         "/assets/drawings/curledup.jpg",
-      "description": "pencil on canvas 18in x 24in"
+      "description": "charcoal on paper"
     },{
       "piece":
         "/assets/drawings/fountain.jpg",
-      "description": "pencil on canvas 18in x 24in"
+      "description": "mechanical pencil on paper"
     }]
   images2 = [
     {
       "piece":
         "/assets/drawings/fountain.jpg",
-      "description": "pencil on canvas 18in x 24in"
+      "description": "mechanical pencil on paper"
     }]
   ngOnInit() {
   }

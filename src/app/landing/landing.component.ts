@@ -13,7 +13,7 @@ export class LandingComponent implements OnInit {
     {
       "piece":
       "/assets/paintings/redhouse.jpeg",
-      "description": "oil on canvas 18in x 24in"
+      "description": "oil on canvas 36in x 48in"
     },
     {
       "piece":
@@ -28,12 +28,12 @@ export class LandingComponent implements OnInit {
     {
       "piece":
       "/assets/paintings/nudeselfie.jpeg",
-      "description": "oil on canvas 18in x 24in"
+      "description": "oil on canvas 30in x 40in"
     },
     {
       "piece":
       "/assets/paintings/windowinparis.jpeg",
-      "description": "oil on canvas 18in x 24in"
+      "description": "oil on canvas 4ft x 6ft"
     }
   ];
   ngOnInit() {
