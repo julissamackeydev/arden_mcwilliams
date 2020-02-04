@@ -11,6 +11,24 @@ export class DrawingsComponent implements OnInit {
   selectedImage = ""
   images = [
     {
+      "piece": "/assets/drawings/baseball.jpg",
+      "description": "soft pastel on paper"
+    }
+  ]
+  images2 = [
+    {
+      "piece": "/assets/drawings/dog.jpg",
+      "description": "soft pastel on paper"
+    },
+    {
+      "piece": "/assets/drawings/abuela.jpg",
+      "description": "soft pastel on paper"
+    },{
+      "piece":
+        "/assets/drawings/fountain.jpg",
+      "description": "mechanical pencil on paper"
+    },
+    {
       "piece":
         "/assets/drawings/splayedout.jpg",
       "description": "charcoal on paper"
@@ -22,17 +40,13 @@ export class DrawingsComponent implements OnInit {
       "piece":
         "/assets/drawings/curledup.jpg",
       "description": "charcoal on paper"
-    },{
-      "piece":
-        "/assets/drawings/fountain.jpg",
-      "description": "mechanical pencil on paper"
-    }]
-  images2 = [
-    {
-      "piece":
-        "/assets/drawings/fountain.jpg",
-      "description": "mechanical pencil on paper"
-    }]
+    }];
+  // images3 = [
+  //   {
+  //     "piece":
+  //       "/assets/drawings/fountain.jpg",
+  //     "description": "mechanical pencil on paper"
+  //   }];
   ngOnInit() {
   }
 
