@@ -34,6 +34,10 @@ export class Works3Component implements OnInit {
         "piece":
         "/assets/paintings/nudeselfie.jpeg",
         "description": "oil on canvas 30in x 40in"
+      },{
+        "piece":
+        "/assets/paintings/mumndad.PNG",
+        "description": "oil on canvas 30in x 40in"
       }]
     images3=[
     {
