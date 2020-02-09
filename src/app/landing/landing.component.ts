@@ -12,6 +12,16 @@ export class LandingComponent implements OnInit {
   images = [
     {
       "piece":
+      "/assets/paintings/singingourpeace.PNG",
+      "description": "oil and ink on canvas 36in x 48in"
+    },
+    {
+      "piece":
+      "/assets/paintings/sunsetmoth.PNG",
+      "description": "oil and ink on canvas 36in x 48in"
+    },
+    {
+      "piece":
       "/assets/paintings/redhouse.jpeg",
       "description": "oil on canvas 36in x 48in"
     },

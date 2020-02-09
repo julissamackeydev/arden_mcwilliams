@@ -9,7 +9,16 @@ export class Works3Component implements OnInit {
 
   constructor() { }
   selectedImage = ""
-  images = [
+  images0 =[{
+    "piece":
+    "/assets/paintings/singingourpeace.PNG",
+    "description": "oil and ink on canvas 36in x 48in"
+  },{
+    "piece":
+    "/assets/paintings/sunsetmoth.PNG",
+    "description": "oil on canvas 36in x 48in"
+  }]
+  images1 = [
     {
       "piece":
       "/assets/paintings/dogs.jpeg",
