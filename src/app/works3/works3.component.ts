@@ -9,30 +9,31 @@ export class Works3Component implements OnInit {
 
   constructor() { }
   selectedImage = ""
-  images0 =[
+  imagesZ =[
     {
       "piece":
       "/assets/contemporary/green_birdwing_1.jpg",
-      "description": "oil and ink on canvas 36in x 48in"
+      "description": "oil on canvas 36in x 48in"
     },
     {
       "piece":
       "/assets/contemporary/sunset_moth_3.jpg",
-      "description": "oil and ink on canvas 36in x 48in"
+      "description": "oil on canvas 36in x 48in"
     },{
       "piece":
       "/assets/contemporary/sunset_moth_2.jpg",
-      "description": "oil and ink on canvas 24in x 36in"
+      "description": "oil on canvas 24in x 36in"
     },
     {
       "piece":
       "/assets/contemporary/sunset_moth_1.jpg",
       "description": "oil on canvas 36in x 48in"
-    },
+    }]
+  images0= [
     {
     "piece":
     "/assets/paintings/singingourpeace.PNG",
-    "description": "oil and ink on canvas 36in x 48in"
+    "description": "oil on canvas 36in x 48in"
   }]
   images1 = [
     {
