@@ -13,7 +13,7 @@ export class Works3Component implements OnInit {
     {
       "piece":
       "/assets/contemporary/green_birdwing_1.jpg",
-      "description": "oil on canvas 36in x 48in"
+      "description": "oil on canvas 30in x 40in"
     },
     {
       "piece":
