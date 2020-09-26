@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="row">
-    <div *ngFor="let image of images" class="col s12 m12 l12 works2image center-align" (click)="lightbox($event)"
+    <div *ngFor="let image of images" class="col s12 m14 l4 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 40vh;">
       <p style="font-size: 14.5;">{{image.description}}</p>

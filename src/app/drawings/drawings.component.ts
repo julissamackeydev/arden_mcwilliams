@@ -11,6 +11,14 @@ export class DrawingsComponent implements OnInit {
   selectedImage = ""
   images = [
     {
+      "piece": "/assets/drawing_commissions/nellie_rose.jpg",
+      "description": "soft pastel on paper 9in x 11in "
+    },
+    {
+      "piece": "/assets/drawing_commissions/nellie_rose_pre_grooming.jpg",
+      "description": "soft pastel on paper 9in x 12in "
+    },
+    {
       "piece": "/assets/drawings/baseball.jpg",
       "description": "soft pastel on paper"
     }
