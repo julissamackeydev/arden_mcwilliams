@@ -13,6 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { Works2Component } from './works2/works2.component';
 import { Works3Component } from './works3/works3.component';
 import { DrawingsComponent } from './drawings/drawings.component';
+import { CommissionsComponent } from './commissions/commissions.component';
+import { ContemporaryComponent } from './contemporary/contemporary.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { DrawingsComponent } from './drawings/drawings.component';
     ContactComponent,
     Works2Component,
     Works3Component,
-    DrawingsComponent
+    DrawingsComponent,
+    CommissionsComponent,
+    ContemporaryComponent
   ],
   imports: [
     BrowserModule,

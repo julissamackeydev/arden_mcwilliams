@@ -5,9 +5,9 @@ import { ContactComponent } from '../app/contact/contact.component';
 import { DrawingsComponent } from '../app/drawings/drawings.component';
 import { LandingComponent } from '../app/landing/landing.component';
 import { Landing2Component } from '../app/landing2/landing2.component';
-import { Works1Component } from '../app/works1/works1.component';
-import { Works2Component } from '../app/works2/works2.component';
 import { Works3Component } from '../app/works3/works3.component';
+import { CommissionsComponent } from './commissions/commissions.component';
+import { ContemporaryComponent } from './contemporary/contemporary.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
@@ -15,9 +15,9 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'drawings', component: DrawingsComponent },
   { path: 'landing-2', component: Landing2Component },
-  // { path: 'works-1', component: Works1Component },
-  // { path: 'works-2', component: Works2Component },
-  { path: 'works', component: Works3Component }
+  { path: 'works', component: Works3Component },
+  { path: 'commissions', component: CommissionsComponent },
+  { path: 'contemporary', component: ContemporaryComponent },
 ];
 
 @NgModule({

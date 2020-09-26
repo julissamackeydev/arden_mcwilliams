@@ -13,6 +13,10 @@ export class AppComponent {
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, {});
+
+
+    var triggerElems = document.querySelectorAll('.dropdown-trigger');
+    var triggerInstances = M.Dropdown.init(triggerElems, { hover: true, coverTrigger: false});
     });
   }
 }
