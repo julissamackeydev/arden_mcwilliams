@@ -11,23 +11,28 @@ export class ContemporaryComponent implements OnInit {
   selectedImage = ""
   butterflies = [
     {
+      "title": "Adriandolo I",
       "piece":
-        "/assets/contemporary/green_birdwing_1.jpg",
-      "description": "oil on canvas 30in x 40in"
+        "/assets/contemporary/sunset_moth_1.jpg",
+      "description": "oil on canvas 36in x 48in"
     },
     {
+      "title": "Adriandolo II",
+      "piece":
+        "/assets/contemporary/sunset_moth_2.jpg",
+      "description": "oil on canvas 24in x 36in"
+    },
+    {
+      "title": "Adriandolo III",
       "piece":
         "/assets/contemporary/sunset_moth_3.jpg",
       "description": "oil on canvas 36in x 48in"
     },
     {
+      "title": "Green Birdwing",
       "piece":
-        "/assets/contemporary/sunset_moth_1.jpg",
-      "description": "oil on canvas 36in x 48in"
-    }, {
-      "piece":
-        "/assets/contemporary/sunset_moth_2.jpg",
-      "description": "oil on canvas 24in x 36in"
+        "/assets/contemporary/green_birdwing_1.jpg",
+      "description": "oil on canvas 30in x 40in"
     }]
 
   ngOnInit() {
