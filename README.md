@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d16ac55-9f9c-4ba0-8a42-e616c578aac6/deploy-status)](https://app.netlify.com/sites/elated-archimedes-c730ab/deploys)
+
 # Arden
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
