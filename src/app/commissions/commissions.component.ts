@@ -11,33 +11,39 @@ export class CommissionsComponent implements OnInit {
   selectedImage = ""
   landscape_dogs = [
     {
+      "title":"Honey & Harley",
       "piece":
         "/assets/painting_commissions/honey_and_harley.jpg",
       "description": "oil on canvas 16in x 20in"
     },
     {
+      "title":"Bella & Karma",
       "piece":
         "/assets/painting_commissions/bella_and_karma.jpg",
       "description": "oil on canvas 16in x 20in"
     }]
     portrait_dogs=[
     {
+      "title":"Bear",
       "piece":
         "/assets/painting_commissions/bear.jpg",
       "description": "oil on canvas 11in x 14in"
     },
     {
+      "title":"Nellie Rose",
       "piece":
         "/assets/drawing_commissions/nellie_rose.jpg",
       "description": "soft pastel on paper 9in x 12in"
     },
     {
+      "title":"N.R. ",
       "piece":
         "/assets/drawing_commissions/nellie_rose_pre_grooming.jpg",
       "description": "soft pastel on paper 9in x 11in"
     }]
   cities = [
     {
+      "title":"18 N. Moore Street",
       "piece":
         "/assets/painting_commissions/18NMoore.jpg",
       "description": "oil on canvas 11in x 14in"
@@ -61,6 +67,7 @@ export class CommissionsComponent implements OnInit {
   //   }]
   // girls = [
     {
+      "title":"Teddi",
       "piece":
         "/assets/painting_commissions/teddi.jpg",
       "description": "oil on canvas 16in x 20in"

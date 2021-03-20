@@ -6,12 +6,14 @@
   <div class="row">
     <div *ngIf="selectedImage != ''">
       <img [src]="selectedImage" class="responsive-image col s12 col m12 col l12">
+      <h6>{{image.title}}</h6>
     </div>
   </div>
   <div class="row">
     <div *ngFor="let image of butterflies" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -19,6 +21,7 @@
     <div *ngFor="let image of parents" class="col s12 m12 l12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" >
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -26,6 +29,7 @@
     <div *ngFor="let image of street_art" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -33,6 +37,7 @@
     <div *ngFor="let image of dogs" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -40,6 +45,7 @@
     <div *ngFor="let image of cities" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -47,6 +53,7 @@
     <div *ngFor="let image of rural" class="col s12 m4 l4 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 30vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -54,6 +61,7 @@
     <div *ngFor="let image of girls" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -61,6 +69,7 @@
     <div *ngFor="let image of people" class="col s12 m6 l6 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" style="height: 50vh;">
+      <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -77,6 +86,7 @@
     <div *ngFor="let image of butterflies" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -84,6 +94,7 @@
     <div *ngFor="let image of parents" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" >
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -91,6 +102,7 @@
     <div *ngFor="let image of street_art" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -98,6 +110,7 @@
     <div *ngFor="let image of dogs" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -105,6 +118,7 @@
     <div *ngFor="let image of cities" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image" >
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -112,6 +126,7 @@
     <div *ngFor="let image of rural" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -119,6 +134,7 @@
     <div *ngFor="let image of girls" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
@@ -126,6 +142,7 @@
     <div *ngFor="let image of people" class="col s12 works2image center-align" (click)="lightbox($event)"
       [ngClass]="(selectedImage =='')?'showall':'hideall'">
       <img [src]="image.piece" class="responsive-image">
+    <h6>{{image.title}}</h6>
       <p style="font-size: 14.5;">{{image.description}}</p>
     </div>
   </div>
