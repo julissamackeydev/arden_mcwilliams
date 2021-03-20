@@ -11,6 +11,12 @@ export class LandingComponent implements OnInit {
   view = 0
   images = [
     {
+      "title": "Self-portrait (homage to Flandrin) ",
+      "piece":
+      "/assets/paintings/nudeselfie.jpeg",
+      "description": "oil on canvas 30in x 40in"
+    },
+    {
       "title": "Green Birdwing",
       "piece":
       "/assets/contemporary/green_birdwing_1.jpg",
@@ -57,12 +63,6 @@ export class LandingComponent implements OnInit {
       "piece":
       "/assets/paintings/dogs.jpeg",
       "description": "oil on canvas 18in x 24in"
-    },
-    {
-      "title": "Self-portrait (homage to Flandrin) ",
-      "piece":
-      "/assets/paintings/nudeselfie.jpeg",
-      "description": "oil on canvas 30in x 40in"
     },
     {
       "title": "Window in Paris",
