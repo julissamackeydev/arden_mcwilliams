@@ -9,6 +9,12 @@ export class Landing2Component implements OnInit {
 
   constructor() { }
   images = [
+
+    {
+      "piece":
+      "/assets/paintings/nudeselfie.jpeg",
+      "description": "oil on canvas 18in x 24in"
+    },
     {
       "piece":
       "/assets/paintings/redhouse.jpeg",
@@ -22,11 +28,6 @@ export class Landing2Component implements OnInit {
     {
       "piece":
       "/assets/paintings/dogs.jpeg",
-      "description": "oil on canvas 18in x 24in"
-    },
-    {
-      "piece":
-      "/assets/paintings/nudeselfie.jpeg",
       "description": "oil on canvas 18in x 24in"
     },
     {
