@@ -27,7 +27,7 @@ export class CommissionsComponent implements OnInit {
       "piece":
         "/assets/painting_commissions/prince.jpg",
       "description": "oil on canvas 16in x 20in"
-    }
+    },
     {
       "title":"Griff",
       "piece":
