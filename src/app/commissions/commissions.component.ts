@@ -21,6 +21,18 @@ export class CommissionsComponent implements OnInit {
       "piece":
         "/assets/painting_commissions/bella_and_karma.jpg",
       "description": "oil on canvas 16in x 20in"
+    },
+    {
+      "title":"Prince",
+      "piece":
+        "/assets/painting_commissions/prince.jpg",
+      "description": "oil on canvas 16in x 20in"
+    }
+    {
+      "title":"Griff",
+      "piece":
+        "/assets/painting_commissions/Griff.jpg",
+      "description": "oil on canvas 16in x 20in"
     }]
     portrait_dogs=[
     {
@@ -40,6 +52,12 @@ export class CommissionsComponent implements OnInit {
       "piece":
         "/assets/drawing_commissions/nellie_rose_pre_grooming.jpg",
       "description": "soft pastel on paper 9in x 11in"
+    },
+    {
+      "title":"Tucker",
+      "piece":
+        "/assets/painting_commissions/tucker.jpg",
+      "description": "oil on canvas 16in x 20in"
     }]
   cities = [
     {
@@ -47,6 +65,18 @@ export class CommissionsComponent implements OnInit {
       "piece":
         "/assets/painting_commissions/18NMoore.jpg",
       "description": "oil on canvas 11in x 14in"
+    },
+    {
+      "title":"Wenny & Lisa: 50 Years Strong",
+      "piece":
+        "/assets/painting_commissions/wenny_and_lisa_50_years_strong.jpg",
+      "description": "oil on canvas 16in x 20in"
+    },
+    {
+      "title":"Olivia & Everly",
+      "piece":
+        "/assets/painting_commissions/olivia_everly.jpg",
+      "description": "oil on canvas 20in x 20in"
     },
   // ]
   // rural = [

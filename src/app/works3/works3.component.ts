@@ -130,6 +130,12 @@ export class Works3Component implements OnInit {
       "piece":
         "/assets/paintings/nudeselfie.jpeg",
       "description": "oil on canvas 30in x 40in"
+    },
+    {
+      "title": "Chaos (self-portrait homage to Flandrin part II)",
+      "piece":
+        "/assets/paintings/chaos.jpeg",
+      "description": "oil on canvas 30in x 40in"
     }, {
       "title": "Love at Squire's Castle",
       "piece":
