@@ -11,6 +11,12 @@ export class LandingComponent implements OnInit {
   view = 0
   images = [
     {
+      "title":"Jackson v. World",
+      "piece":
+        "/assets/painting_commissions/jackson_v_world.jpg",
+      "description": " 30in x 40in oil on canvas"
+    },
+    {
       "title": "Self-portrait (homage to Flandrin) ",
       "piece":
       "/assets/paintings/nudeselfie.jpeg",

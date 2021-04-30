@@ -11,6 +11,12 @@ export class CommissionsComponent implements OnInit {
   selectedImage = ""
   landscape_dogs = [
     {
+      "title":"Jackson v. World",
+      "piece":
+        "/assets/painting_commissions/jackson_v_world.jpg",
+      "description": " 30in x 40in oil on canvas"
+    },
+    {
       "title":"Honey & Harley",
       "piece":
         "/assets/painting_commissions/honey_and_harley.jpg",
