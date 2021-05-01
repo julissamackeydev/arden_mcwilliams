@@ -23,12 +23,12 @@ export class Works3Component implements OnInit {
       "description": "oil on canvas 36in x 48in"
     },
     {
-      "title": "Adriandolo II",
+      "title": "Adriandolo I",
       "piece":
         "/assets/contemporary/sunset_moth_1.jpg",
       "description": "oil on canvas 36in x 48in"
     }, {
-      "title": "Adriandolo I",
+      "title": "Adriandolo II",
       "piece":
         "/assets/contemporary/sunset_moth_2.jpg",
       "description": "oil on canvas 24in x 36in"
@@ -77,6 +77,24 @@ export class Works3Component implements OnInit {
       "piece":
         "/assets/paintings/dogs.jpeg",
       "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "title":"Tucker",
+      "piece":
+        "/assets/painting_commissions/tucker.jpg",
+      "description": "oil on canvas 16in x 20in"
+    },
+    {
+      "title":"Prince",
+      "piece":
+        "/assets/painting_commissions/prince.jpg",
+      "description": "oil on canvas 16in x 20in"
+    },
+    {
+      "title":"Griff",
+      "piece":
+        "/assets/painting_commissions/Griff.jpg",
+      "description": "oil on canvas 16in x 20in"
     }]
   cities = [
     {
@@ -141,6 +159,18 @@ export class Works3Component implements OnInit {
       "piece":
         "/assets/paintings/couple.jpeg",
       "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "title":"Wenny & Lisa: 50 Years Strong",
+      "piece":
+        "/assets/painting_commissions/wenny_and_lisa_50_years_strong.jpg",
+      "description": "oil on canvas 16in x 20in"
+    },
+    {
+      "title":"Olivia & Everly",
+      "piece":
+        "/assets/painting_commissions/olivia_everly.jpg",
+      "description": "oil on canvas 20in x 20in"
     }
   ];
 
