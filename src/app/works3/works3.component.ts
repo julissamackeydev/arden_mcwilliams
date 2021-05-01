@@ -142,6 +142,10 @@ export class Works3Component implements OnInit {
       "piece":
         "/assets/paintings/littlegirl.jpeg",
       "description": "oil on canvas 18in x 24in"
+    },
+    {
+      "piece": "/assets/drawings/baseball.jpg",
+      "description": "soft pastel on paper"
     }
   ]
   people = [
