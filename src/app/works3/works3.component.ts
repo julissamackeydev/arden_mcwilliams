@@ -57,6 +57,26 @@ export class Works3Component implements OnInit {
     }]
   dogs = [
     {
+      "piece": "/assets/drawing_commissions/cat_in_charge.jpg",
+      "description": "charcoal pencil and ink on canvas 12in x 12in"
+    },
+    {
+      "piece": "/assets/drawing_commissions/cat_demure.jpg",
+      "description": "charcoal pencil and ink on canvas 12in x 12in"
+    },
+    {
+      "piece": "/assets/drawing_commissions/cat_relaxed.jpg",
+      "description": "charcoal pencil and ink on canvas 12in x 12in"
+    },
+    {
+      "piece": "/assets/drawing_commissions/cat_black_and_white.jpg",
+      "description": "charcoal pencil and ink on canvas 12in x 12in"
+    },
+    {
+      "piece": "/assets/drawing_commissions/cat_left_eye.jpg",
+      "description": "charcoal pencil and ink on canvas 12in x 12in"
+    },
+    {
       "title": "Honey & Harley",
       "piece":
         "/assets/painting_commissions/honey_and_harley.jpg",
